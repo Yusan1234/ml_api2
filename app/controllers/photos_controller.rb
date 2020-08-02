@@ -7,8 +7,7 @@ class PhotosController < ApplicationController
   def new
     @photo = Photo.new
     @DevImg = Photo.where(name: 'dev')
-    p '-----'
-    p @DevImg
+    gon.img = @DevImg
   end
   def index
     image_file = File.open("public/uploads/photo/image/dancing.jpg")
@@ -24,7 +23,6 @@ class PhotosController < ApplicationController
     uri = URI.parse("http://0.0.0.0:8888/predict")
     req = Net::HTTP.new(uri.host, uri.port)
     req.post(uri.path, data)
-    render plain: req.post(uri.path, data)
   end
   def create
     @photo = Photo.new

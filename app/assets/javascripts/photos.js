@@ -1,9 +1,10 @@
 $(function(){
     var elements = $('.modal-overlay, .modal');
     
-    $('.img_01_show').click(function(){
+    $('#imgclick').click(function(){
+        var id = $(this).val();
+        alert(id);
         elements.addClass('active');
-        console.log("aaa")
     });
     
     $('.close-modal').click(function(){
