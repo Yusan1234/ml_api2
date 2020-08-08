@@ -36,20 +36,20 @@
       <ul class="grid">
         
         <li class="img_01_show">
-        <% @DevImg.each do |img| %>
+
           <figure class="grid__figure">
-          <%= image_tag img.path %>
-            <%# <img src="/assets/picasso.jpg" alt=""> %>
+
+            <img src="/assets/picasso.jpg" alt="">
             <figcaption>Pre ArtPortrait</figcaption>
           </figure>
         </li>
         <li>
           <figure class="grid__figure">
-            <%# <img src="/assets/katsushika.jpg" alt=""> %>
-             <%= image_tag img.path %>
+            <img src="/assets/katsushika.jpg" alt="">
+
             <figcaption>Post ArtPortrait</figcaption>
           </figure>
-      <% end %>
+
         </li>
       
       </ul>
