@@ -1,5 +1,5 @@
 # style changer
-This is changeable an image to other style image produced by machine learning. Using several algorythms presented in some conferences which were created by python, cloud architechture in AWS and ruby on rails for apprication frame, style changer can transfer user image to a few kinds of images.  
+This is changeable app of an image to other style image produced by machine learning. Using several algorythms presented in some conferences which were created by python, cloud architechture in AWS and ruby on rails for apprication frame, style changer can transfer user image to a few kinds of images.  
 
 # DEMO
 
